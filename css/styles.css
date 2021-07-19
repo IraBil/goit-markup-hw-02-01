@@ -3,21 +3,52 @@ body {
   color: #212121;
 }
 
-a {
-  text-decoration: none;
-  color: #212121;
-}
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  stroke-linecap: black;
+  height: 31px;
+  height: 100%;
+  letter-spacing: 3%;
+  text-decoration: none;
 }
-.pages,
-.contacts {
+
+.black {
+  color: black;
+}
+
+.pages {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 2%;
+  color: #212121;
+}
+
+.contacts {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2%;
+  color: #212121;
+}
+
+.pages:hover {
+  color: #2196f3;
+}
+
+.contacts:hover {
+  color: #2196f3;
+}
+
+.button-order {
+  background-color: #2196f3;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 30px;
+  line-height: 160%;
+  letter-spacing: 6%;
+  color: #ffffff;
 }
 
 h1 {
@@ -30,21 +61,27 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 36px;
+  letter-spacing: 3%;
 }
 h3 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
+  font-style: bold;
+  line-height: 16px;
+  letter-spacing: 3%;
 }
 h4 {
   font-weight: 500;
   font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3%;
 }
 p {
   font-weight: 400;
   font-size: 14px;
   color: #757575;
+  letter-spacing: 3%;
 }
 ul {
   list-style-type: none;
@@ -52,7 +89,50 @@ ul {
 .order {
   background-color: #2f303a;
 }
-
 .blu {
   color: #2196f3;
+}
+.invisibl {
+  display: none;
+}
+footer {
+  background-color: #2f303a;
+}
+.wight {
+  color: #ffffff;
+}
+.footer-address {
+  font-style: 400;
+  font-size: 14px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-contacts {
+  font-style: 400;
+  font-size: 14px;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.button-portfolio {
+  background-color: #f5f4fa;
+  font-style: Bold;
+  letter-spacing: 6%;
+  color: #212121;
+}
+.button-portfolio:hover {
+  background-color: #2196f3;
+}
+h5 {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 6%;
+}
+
+.filter {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  letter-spacing: 3%;
 }
