@@ -1,6 +1,17 @@
+:root {
+  --brand-color: #212121;
+  --color-black: black;
+  --color-blu: #2196f3;
+  --color-wight: #ffffff;
+  --color-gray: #757575;
+  --background-color: #2f303a;
+  --color-footer-contacts: rgba(255, 255, 255, 0.6);
+  --button-portfolio-background-color: #f5f4fa;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: var(--brand-color);
 }
 
 .logo {
@@ -14,7 +25,7 @@ body {
 }
 
 .black {
-  color: black;
+  color: var(--color-black);
 }
 
 .pages {
@@ -22,7 +33,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 2%;
-  color: #212121;
+  color: var(--brand-color);
 }
 
 .contacts {
@@ -30,40 +41,40 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 2%;
-  color: #212121;
+  color: var(--brand-color);
 }
 
 .pages:hover {
-  color: #2196f3;
+  color: var(--color-blu);
 }
 
 .contacts:hover {
-  color: #2196f3;
+  color: var(--color-blu);
 }
 
 .button-order {
-  background-color: #2196f3;
+  background-color: var(--color-blu);
   font-style: Bold;
   font-size: 16px;
   line-height: 30px;
   line-height: 160%;
   letter-spacing: 6%;
-  color: #ffffff;
+  color: var(--color-wight);
 }
 
-h1 {
+.title_1 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
   font-size: 44px;
-  color: #ffffff;
+  color: var(--color-wight);
 }
 
-h2 {
+.title_2 {
   font-weight: 700;
   letter-spacing: 3%;
 }
-h3 {
+.title_3 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -71,60 +82,61 @@ h3 {
   line-height: 16px;
   letter-spacing: 3%;
 }
-h4 {
+.title_4 {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 3%;
 }
-p {
+.text {
   font-weight: 400;
   font-size: 14px;
-  color: #757575;
+  color: var(--color-gray);
   letter-spacing: 3%;
 }
-ul {
+.without_marker {
   list-style-type: none;
 }
 .order {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 .blu {
-  color: #2196f3;
+  color: var(--color-blu);
 }
 .invisibl {
   display: none;
 }
-footer {
-  background-color: #2f303a;
+.footer_background {
+  background-color: var(--background-color);
 }
 .wight {
-  color: #ffffff;
+  color: var(--color-wight);
 }
 .footer-address {
   font-style: 400;
   font-size: 14px;
   letter-spacing: 3%;
-  color: #ffffff;
+  color: var(--color-wight);
   text-decoration: none;
 }
 .footer-contacts {
   font-style: 400;
   font-size: 14px;
   letter-spacing: 3%;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-footer-contacts);
   text-decoration: none;
 }
 .button-portfolio {
-  background-color: #f5f4fa;
+  background-color: var(--button-portfolio-background-color);
   font-style: Bold;
   letter-spacing: 6%;
-  color: #212121;
+  color: var(--brand-color);
 }
 .button-portfolio:hover {
-  background-color: #2196f3;
+  background-color: var(--color-blu);
 }
-h5 {
+
+.title_2_portfolio {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 6%;
@@ -133,6 +145,20 @@ h5 {
 .filter {
   font-weight: 400;
   font-size: 16px;
-  color: #757575;
+  color: var(--color-gray);
   letter-spacing: 3%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
