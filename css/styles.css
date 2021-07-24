@@ -44,11 +44,13 @@ body {
   color: var(--brand-color);
 }
 
-.pages:hover {
+.pages:hover,
+.pages:focus {
   color: var(--color-blu);
 }
 
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
   color: var(--color-blu);
 }
 
@@ -74,7 +76,7 @@ body {
   font-weight: 700;
   letter-spacing: 3%;
 }
-.title_3 {
+.title_3_advantages {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -82,7 +84,7 @@ body {
   line-height: 16px;
   letter-spacing: 3%;
 }
-.title_4 {
+.title_3_names {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -125,6 +127,10 @@ body {
   letter-spacing: 3%;
   color: var(--color-footer-contacts);
   text-decoration: none;
+}
+
+.footer-contacts:focus {
+  color: var(--color-blu);
 }
 .button-portfolio {
   background-color: var(--button-portfolio-background-color);
